@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  font-family: 'Verdana', sans-serif;
+  color: #d9d9d9;
+  position: fixed;
+  overflow-y: scroll;
+}
+
+h1 {
+  letter-spacing: -1.2px;
+  line-height: 84px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h2 {
+  color: rgb(217, 217, 217);
+  font-size: 31px;
+  line-height: 36px;
+  word-spacing: 0px;
+  font-weight: 700;
+}
+
+i {
+  color: rgb(217, 217, 217);
+}
+
+.top {
+  display: flex;
+  align-items: inherit;
+}
+
+input[type='text'],
+input[type='password'] {
+  border: 1px solid #6e767d;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.remember_password {
+  color: rgb(27, 149, 224);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+a.remember_password {
+  text-decoration: none;
+}
+a.remember_password:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+  border-radius: 9999px;
+  padding: 0px 32px;
+  margin: 0px 0px 4px;
+}
+button:hover {
+  color: rgb(26, 145, 218);
+  border: 1px solid rgb(26, 145, 218);
+}
+button.btn-from {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  min-height: 48px;
+}
+
+/* input {
+  margin: 16px 0 0;
+  padding: 12px 4px 4px;
+  color: #6e767d;
+} */
+
+.input-form {
+  margin-right: 12px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-side {
+  flex: 0.53;
+  flex-direction: column;
+  align-items: baseline;
+  display: flex;
+  padding: 0 30px;
+}
+
+.middle {
+  align-items: baseline;
+  margin-bottom: 70px;
+}
+
+.right-side h1 {
+  margin-top: 45px;
+}
+
+.right-side h2 {
+  margin-top: 60px;
+  margin-bottom: 32px;
+}
+
+.logo-twitter {
+  max-height: 380px;
+  fill: rgb(255, 255, 255);
+}
+
+.left-side {
+  background: url('img/twitter.png') no-repeat top center;
+  background-size: cover;
+  flex: 0.47;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: inline;
+}
+
+.sign,
+.login {
+  display: inline-block;
+  width: 60%;
+}
+
+.sign a,
+.login a {
+  padding: 13px 100px;
+  height: 1.3rem;
+  border: 0;
+  background-color: rgb(29, 161, 242);
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.sign a:hover {
+  background-color: rgb(26, 145, 218);
+}
+
+.login a {
+  border: 1px solid rgb(29, 161, 242);
+  background-color: rgb(0, 0, 0);
+  color: rgb(29, 161, 242);
+}
+
+footer {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+}
+
+footer nav {
+  flex-wrap: wrap;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+footer nav ul {
+  height: 100%;
+  list-style: none;
+}
+
+footer nav ul li {
+  display: inline;
+  padding: 4px;
+  margin: 2px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+}
+
+footer p {
+  display: inline;
+  color: rgb(110, 118, 125);
+}
